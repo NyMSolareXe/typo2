@@ -1,0 +1,30 @@
+{
+  "name": "typescript-solar2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack",
+    "build2": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.167",
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^8.0.13",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "class-transformer": "^0.3.1",
+    "lodash": "^4.17.20",
+    "reflect-metadata": "^0.1.13"
+  }
+}
